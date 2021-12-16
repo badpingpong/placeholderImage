@@ -1,4 +1,12 @@
 {
+  "main": "build/index.js",
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
   "devDependencies": {
     "typescript": "^4.5.4"
   }
